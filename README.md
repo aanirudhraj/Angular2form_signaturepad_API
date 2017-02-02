@@ -1,12 +1,46 @@
-# Angular2-SignaturePad Demo
+Angular2-Form using Signature Pad
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.16.
+This Application is built on Angular2 Framework which uses it's form modules to create a simple form to enter some details of the customer along with a digital signature done through  <a href="https://www.npmjs.com/package/angular2-signaturepad" target="_blank" title=" angular2-signaturepad"> angular2-signaturepad </a>.It also generates a json with all the form fields the user have entered.
 
-## Run
+## Prerequisites
 
-`npm install`
+Node.js and npm are essential to Angular development. 
+    
+<a href="https://docs.npmjs.com/getting-started/installing-node" target="_blank" title="Installing Node.js and updating npm">
+Get it now</a> if it's not already installed on your machine.
+ 
+**Verify that you are running at least node `v4.x.x` and npm `3.x.x`**
+by running `node -v` and `npm -v` in a terminal/console window.
+Older versions produce errors.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Create a new project 
+
+Clone this repo into new project folder (e.g., `my-proj`).
+```shell
+git clone https://github.com/aanirudhraj/Angular2-form_signaturepad.git  my-proj
+cd my-proj
+```
+
+## Install npm packages
+
+Once you are in my-proj(for this example) directory following commands should be run to install npm.
+
+> See npm and nvm version notes above
+
+Install the npm packages described in the `package.json` and verify that it works:
+
+```shell
+npm install
+npm start
+```
+
+The `npm start` command first compiles the application, 
+then simultaneously re-compiles and runs the `lite-server`.
+Both the compiler and the server watch for file changes.
+
+Shut it down manually with `Ctrl-C`.
+
+Now you can Navigate to `http://localhost:4200/` on any browser, you can see my Form application loads. if you make any changes to my source code saving the code will automatically load the application to browser. 
 
 ## Demo
 
