@@ -42,7 +42,7 @@
         
 		<div class="form-group">
 				<label for="t&c">Terms & Condtions </label> <textarea class="form-control" rows="4" cols="30">
-        Please read the terms and conditions appiled before coming to america
+        Please read the terms and conditions 
       </textarea>
 		</div>
         <div class="checkbox">
@@ -74,13 +74,13 @@
     <div class="col-xs-3">Address:</div>
     <div class="col-xs-9 pull-left">{{ model.address }}</div>
   </div>
-  <div class="row">
-    <div class="col-xs-3">SSN:</div>
-    <div class="col-xs-9 pull-left">{{ model.SSN }}</div>
-  </div>
     <div class="row">
     <div class="col-xs-3">Email:</div>
     <div class="col-xs-9 pull-left">{{ model.Email }}</div>
+  </div>
+   <div class="row">
+    <div class="col-xs-3">Signature:</div>
+    <div class="col-xs-9 pull-left">{{ model.sig }}</div>
   </div>
   <br>
   <button class="btn btn-danger" (click)="submitted=false">Edit</button>
