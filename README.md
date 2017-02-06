@@ -1,6 +1,7 @@
 ## Angular2-Form using Signature Pad
 
 This Application is built on Angular2 Framework which uses it's form modules to create a simple form to enter some details of the customer along with a digital signature done through  <a href="https://www.npmjs.com/package/angular2-signaturepad" target="_blank" title=" angular2-signaturepad"> angular2-signaturepad </a>.It also generates a json with all the form fields the user have entered.
+This JSON file is used as a input to Rest API which stores the form values to a database.
 
 ## Prerequisites
 
